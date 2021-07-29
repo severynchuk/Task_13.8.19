@@ -18,7 +18,6 @@
 # # Для проверки загрузите полученное решение на GitHub и прикрепите ссылку.
 num_tickets = int(input('введите кол-во билетов'))
 sum = 0
-print(num_tickets)
 for i in range(num_tickets):
     age = int(input("Введите возраст"))
     if 18 <= age < 25:
